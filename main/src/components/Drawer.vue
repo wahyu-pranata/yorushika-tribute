@@ -1,8 +1,8 @@
 <template>
-  <div class="absolute top-0 left-14 transition-all duration-300">
-    <div class="main">
+  <div class="absolute top-0 left-14 transition-all duration-300 ease-out select-none">
+    <div class="drawer">
       <ul class="drawer-items">
-        <li><a href="#">about</a></li>
+        <li><a href="#about">about</a></li>
         <li><a href="#">biography</a></li>
         <li><a href="#">discography</a></li>
         <li><a href="#">movie</a></li>
@@ -19,7 +19,7 @@ export default {
 </script>
 
 <style scoped>
-.main {
+.drawer {
   @apply flex h-screen w-96 bg-yoru-200 border-l border-r-white items-center justify-center
 }
 .drawer-items {
