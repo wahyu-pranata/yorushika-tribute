@@ -15,7 +15,7 @@ module.exports = {
       },
       fontFamily: {
         'nunitosans': '"Nunito Sans"',
-        'notoserifjp': '"Noto Serif JP"'
+        'lora': '"Lora"'
       }
     },
   },
