@@ -2,11 +2,11 @@
   <div class="absolute top-0 left-14 transition-all duration-300 ease-out select-none">
     <div class="drawer">
       <ul class="drawer-items">
-        <li><a href="#about">about</a></li>
-        <li><a href="#">biography</a></li>
-        <li><a href="#">discography</a></li>
-        <li><a href="#">movie</a></li>
-        <li><a href="#">contact</a></li>
+        <li><router-link to="/about">about</router-link></li>
+        <li><router-link to="/biography">biography</router-link></li>
+        <li><router-link to="/disco">discography</router-link></li>
+        <li><router-link to="/movie">movie</router-link></li>
+        <li><router-link to="/">contact</router-link></li>
       </ul>
     </div>
   </div>
