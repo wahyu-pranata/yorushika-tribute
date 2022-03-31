@@ -1,18 +1,13 @@
 <template>
     <Navbar @tog-drawer="toggleDrawer" :drawervis="drawerVis" class="fixed top-0 left-0 z-10" @close="this.drawerVis = false"/>
-    <div class="main">
-      <Banner/>
-      <About id="about"/>
-    </div>
+    <router-view></router-view>
 </template>
 
 <script>
 import Navbar from './components/Navbar.vue'
-import Banner from './components/Banner.vue'
-import About from './components/About.vue'
 export default {
   components: {
-    Navbar, Banner, About
+    Navbar
   },
   data() {
     return {
