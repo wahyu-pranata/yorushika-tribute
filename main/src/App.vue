@@ -1,6 +1,6 @@
 <template>
-    <Navbar @tog-drawer="toggleDrawer" :drawervis="drawerVis" class="fixed top-0 left-0 z-10" @close="this.drawerVis = false"/>
-    <router-view></router-view>
+    <Navbar @tog-drawer="toggleDrawer" @switch="toggleDrawer" :drawervis="drawerVis" @close="this.drawerVis = false"/>
+    <router-view class="main"></router-view>
 </template>
 
 <script>
