@@ -4,8 +4,9 @@
     <div class="content-container">
       <div class="content">
         <h2 class="content-heading">Who is Yorushika?</h2>
-        <p class="content-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis corporis adipisci dolor excepturi saepe quod hic quasi alias est dolores, ea dolorem porro tempore soluta debitis commodi illo aliquam illum nulla iusto? Omnis repudiandae reprehenderit tempore quibusdam iusto eum dolore porro dolor est incidunt dolorem quod, a, corporis, aliquam ex!</p>
-        <router-link to="/about">Hello</router-link>
+        <p class="content-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis corporis adipisci dolor excepturi saepe quod hic quasi alias est dolores, ea dolorem porro tempore soluta debitis commodi illo aliquam illum nulla iusto? Omnis repudiandae reprehenderit tempore quibusdam iusto eum dolore porro dolor est incidunt dolorem quod, a, corporis, aliquam ex!
+          <router-link to="/about" class="link">Hello</router-link>
+        </p>
       </div>
       <div class="content">
         <h2 class="content-heading">Yorushika Works</h2>
@@ -24,7 +25,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .heading {
   @apply text-center mx-auto relative inline-block font-lora text-yoru-400 text-4xl underline decoration-yoru-300 decoration-2 underline-offset-2
 }
@@ -39,5 +40,8 @@ export default {
 }
 .content-paragraph {
   @apply font-nunitosans first-letter:ml-8 mt-2
+}
+.link {
+  @apply text-yoru-300 underline decoration-yoru-300 after:contents
 }
 </style>
