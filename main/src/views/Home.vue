@@ -15,6 +15,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.main {
+  @apply -z-10
+}
 </style>
