@@ -1,12 +1,12 @@
 <template>
-  <div class="absolute top-0 left-14 transition-all duration-300 ease-out select-none">
+  <div class="drawer-container">
     <div class="drawer">
       <ul class="drawer-items">
-        <li><router-link to="/about">about</router-link></li>
-        <li><router-link to="/biography">biography</router-link></li>
-        <li><router-link to="/disco">discography</router-link></li>
-        <li><router-link to="/movie">movie</router-link></li>
-        <li><router-link to="/">contact</router-link></li>
+        <li><router-link to="/" @click="$emit('switch')">home</router-link></li>
+        <li><router-link to="/about" @click="$emit('switch')">about</router-link></li>
+        <li><router-link to="/biography" @click="$emit('switch')">biography</router-link></li>
+        <li><router-link to="/disco" @click="$emit('switch')">discography</router-link></li>
+        <li><router-link to="/movie" @click="$emit('switch')">movie</router-link></li>
       </ul>
     </div>
   </div>
@@ -19,8 +19,11 @@ export default {
 </script>
 
 <style scoped>
+.drawer-container {
+  @apply fixed top-0 left-14 transition-all duration-300 ease-out select-none z-[11]
+}
 .drawer {
-  @apply flex h-screen w-96 bg-yoru-200 border-l border-r-white items-center justify-center
+  @apply flex h-screen w-[calc(100vw-4.58rem)] md:w-96 bg-yoru-200 border-l border-r-white items-center justify-center
 }
 .drawer-items {
   @apply h-3/5 w-2/3 flex flex-col justify-around
