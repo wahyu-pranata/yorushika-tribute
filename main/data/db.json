@@ -1,0 +1,635 @@
+{
+  "discography": [
+    {
+      "id": 1,
+      "type": "Mini Album",
+      "jpName": "夏草が邪魔をする",
+      "romajiName": "Natsukusa ga Jama wo Suru",
+      "enName": "The Summer Grass is Getting in My Way",
+      "yearReleased": 2017,
+      "img": "../assets/yorushika-disco/natsukusa.jpeg",
+      "tracklist": [
+        {
+          "id": 1,
+          "jpName": "夏陰、ピアノを弾く",
+          "romajiName": "Natsukage, Piano wo Hiku",
+          "enName": "Playing Piano in the Shadow of Summer"
+        },
+        {
+          "id": 2,
+          "jpName": "カトレア",
+          "romajiName": "Katorea",
+          "enName": "Cattleya"
+        },
+        {
+          "id": 3,
+          "jpName": "言って。",
+          "romajiName": "Itte.",
+          "enName": "Say It."
+        },
+        {
+          "id": 4,
+          "jpName": "あの夏に咲け",
+          "romajiName": "Ano Natsu ni Sake",
+          "enName": "Blooming in That Summer"
+        },
+        {
+          "id": 5,
+          "jpName": "飛行",
+          "romajiName": "Hikou",
+          "enName": "Flying Free"
+        },
+        {
+          "id": 6,
+          "jpName": "靴の花火",
+          "romajiName": "Kutsu no Hanabi",
+          "enName": "Fireworks Beneath My Shoes"
+        },
+        {
+          "id": 7,
+          "jpName": "雲と幽霊",
+          "romajiName": "Kumo to Yuurei",
+          "enName": "The Clouds and The Ghost"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "Mini Album",
+      "jpName": "負け犬にアンコールはいらない",
+      "romajiName": "Makeinu ni Encore wa Iranai",
+      "enName": "A Loser Doesn't Need an Encore",
+      "yearReleased": 2018,
+      "img": "../assets/yorushika-disco/makeinu.jpeg",
+      "tracklist": [
+        {
+          "id": 1,
+          "jpName": "前世",
+          "romajiName": "Zense",
+          "enName": "Past Life"
+        },
+        {
+          "id": 2,
+          "jpName": "負け犬にアンコールはいらない",
+          "romajiName": "Makeinu ni Encore wa Iranai",
+          "enName": "A Loser Doesn't Need an Encore"
+        },
+        {
+          "id": 3,
+          "jpName": "爆弾魔",
+          "romajiName": "Bakudanma",
+          "enName": "Compulsive Bomber"
+        },
+        {
+          "id": 4,
+          "jpName": "ヒッチコック",
+          "romajiName": "Hicchikokku",
+          "enName": "Hitchcock"
+        },
+        {
+          "id": 5,
+          "jpName": "落下",
+          "romajiName": "Rakka",
+          "enName": "Fallling"
+        },
+        {
+          "id": 6,
+          "jpName": "準透明少年",
+          "romajiName": "Juntoumei Shounen",
+          "enName": "Semi-Transparent Boy"
+        },
+        {
+          "id": 7,
+          "jpName": "ただ君に晴れ",
+          "romajiName": "Tada Kimi ni Hare",
+          "enName": "Just a Sunny Day for You"
+        },
+        {
+          "id": 8,
+          "jpName": "冬眠",
+          "romajiName": "Toumin",
+          "enName": "Hibernation"
+        },
+        {
+          "id": 9,
+          "jpName": "夏、バス停、君を待つ",
+          "romajiName": "Natsu, Basutei, Kimi wo Matsu",
+          "enName": "Summer, Bus Stop, Waiting for You"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "Album",
+      "jpName": "だから僕は音楽を辞めた",
+      "romajiName": "Dakara Boku wa Ongaku wo Yameta",
+      "enName": "That's Why I Gave Up on Music",
+      "yearReleased": 2019,
+      "img": "../assets/yorushika-disco/dakaboku.jpeg",
+      "tracklist": [
+        {
+          "id": 1,
+          "jpName": "8/31",
+          "romajiName": "8/31",
+          "enName": "8/31"
+        },
+        {
+          "id": 2,
+          "jpName": "藍二乗",
+          "romajiName": "Ai Nijou",
+          "enName": "Deep Indigo"
+        },
+        {
+          "id": 3,
+          "jpName": "八月、某、月明かり",
+          "romajiName": "Hachigatsu, Bou, Tsukiakari",
+          "enName": "August, A Certain Person, Moonlight"
+        },
+        {
+          "id": 4,
+          "jpName": "詩書きとコーヒー",
+          "romajiName": "Utagaki to Koohii",
+          "enName": "Songwriting and Coffee"
+        },
+        {
+          "id": 5,
+          "jpName": "7/13",
+          "romajiName": "7/13",
+          "enName": "7/13"
+        },
+        {
+          "id": 6,
+          "jpName": "踊ろうぜ",
+          "romajiName": "Odorouze",
+          "enName": "Let's Dance"
+        },
+        {
+          "id": 7,
+          "jpName": "六月は雨上がりの街を書く",
+          "romajiName": "Rokugatsu wa Ameagari no Machi wo Kaku",
+          "enName": "In June, I Write About the Town After the Rain"
+        },
+        {
+          "id": 8,
+          "jpName": "五月は花緑青の窓辺から",
+          "romajiName": "Gogatsu wa Hana Rokushou no Madobe Kara",
+          "enName": "In May, From the Emerald Green Window"
+        },
+        {
+          "id": 9,
+          "jpName": "夜紛い",
+          "romajiName": "Yoru Magai",
+          "enName": "False Night"
+        },
+        {
+          "id": 10,
+          "jpName": "5/6",
+          "romajiName": "5/6",
+          "enName": "5/6"
+        },
+        {
+          "id": 11,
+          "jpName": "パレード",
+          "romajiName": "Pareedo",
+          "enName": "Parade"
+        },
+        {
+          "id": 12,
+          "jpName": "エルマ",
+          "romajiName": "Eruma",
+          "enName": "Elma"
+        },
+        {
+          "id": 13,
+          "jpName": "4/10",
+          "romajiName": "4/10",
+          "enName": "4/10"
+        },
+        {
+          "id": 14,
+          "jpName": "だから僕は音楽を辞めた",
+          "romajiName": "Dakara Boku wa Ongaku wo Yameta",
+          "enName": "That's Why I Gave up On Music"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "Digital Single",
+      "jpName": "心に穴が空いた",
+      "romajiName": "Kokoro ni Ana ga Aita",
+      "enName": "A Hole Opened Up in My Heart",
+      "yearReleased": 2019,
+      "img": "../assets/yorushika-disco/kokoroana.jpeg",
+      "tracklist": [
+        {
+          "id": 1,
+          "jpName": "心に穴が空いた",
+          "romajiName": "Kokoro ni Ana ga Aita",
+          "enName": "A Hole Opened Up in My Heart"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "Album",
+      "jpName": "エルマ",
+      "romajiName": "Eruma",
+      "enName": "Elma",
+      "yearReleased": 2019,
+      "img": "../assets/yorushika-disco/elma.jpeg",
+      "tracklist": [
+        {
+          "id": 1,
+          "jpName": "車窓",
+          "romajiName": "Shasou",
+          "enName": "Train Window"
+        },
+        {
+          "id": 2,
+          "jpName": "憂一乗",
+          "romajiName": "Yuu Ichijou",
+          "enName": "Only Sorrow"
+        },
+        {
+          "id": 3,
+          "jpName": "夕凪、某、花惑い",
+          "romajiName": "Yuunagi, Bou, Hanamadoi",
+          "enName": "Evening Calm, Somewhere, Fireworks"
+        },
+        {
+          "id": 4,
+          "jpName": "雨とカプチーノ",
+          "romajiName": "Ame to Kapuchiino",
+          "enName": "Rain with Capuccino"
+        },
+        {
+          "id": 6,
+          "jpName": "湖の街",
+          "romajiName": "Mizuumi no Machi",
+          "enName": "Lakeside Town"
+        },
+        {
+          "id": 6,
+          "jpName": "神様のダンス",
+          "romajiName": "Kamisama no Dansu",
+          "enName": "Dance of You"
+        },
+        {
+          "id": 7,
+          "jpName": "雨晴るる",
+          "romajiName": "Ame Haruru",
+          "enName": "After the Rain"
+        },
+        {
+          "id": 8,
+          "jpName": "歩く",
+          "romajiName": "Aruku",
+          "enName": "Walk"
+        },
+        {
+          "id": 9,
+          "jpName": "心に穴が空いた",
+          "romajiName": "Kokoro ni Ana ga Aita",
+          "enName": "A Hole Opened Up in My Heart"
+        },
+        {
+          "id": 10,
+          "jpName": "森の教会",
+          "romajiName": "Mori no Kyoukai",
+          "enName": "Church in the Forest"
+        },
+        {
+          "id": 11,
+          "jpName": "声",
+          "romajiName": "Koe",
+          "enName": "Voice"
+        },
+        {
+          "id": 12,
+          "jpName": "エイミー",
+          "romajiName": "Eimii",
+          "enName": "Amy"
+        },
+        {
+          "id": 13,
+          "jpName": "海底、月明かり",
+          "romajiName": "Kaitei, Tsukiakari",
+          "enName": "Seabed, Moonlight"
+        },
+        {
+          "id": 14,
+          "jpName": "ノーチラス",
+          "romajiName": "Noochirausu",
+          "enName": "Nautilus"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "Digital Single",
+      "jpName": "夜行",
+      "romajiName": "Yakou",
+      "enName": "Night Journey",
+      "yearReleased": 2020,
+      "img": "../assets/yorushika-disco/yakou.jpeg",
+      "tracklist": [
+        {
+          "id": 1,
+          "jpName": "夜行",
+          "romajiName": "Yakou",
+          "enName": "Night Journey"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "Digital Single",
+      "jpName": "花に亡霊",
+      "romajiName": "Hana ni Bourei",
+      "enName": "Ghost in A Flower",
+      "yearReleased": 2020,
+      "img": "../assets/yorushika-disco/hananibourei.jpeg",
+      "tracklist": [
+        {
+          "id": 1,
+          "jpName": "花に亡霊",
+          "romajiName": "Hana ni Bourei",
+          "enName": "Ghost in A Flower"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "Digital Single",
+      "jpName": "春ひさぎ",
+      "romajiName": "Haru Hisagi",
+      "enName": "Prostitution",
+      "yearReleased": 2020,
+      "img": "../assets/yorushika-disco/haruhisagi.jpeg",
+      "tracklist": [
+        {
+          "id": 1,
+          "jpName": "春ひさぎ",
+          "romajiName": "Haru Hisagi",
+          "enName": "Prostitutiony"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "Digital Single",
+      "jpName": "思想犯",
+      "romajiName": "Shisouhan",
+      "enName": "Thoughtcrime",
+      "yearReleased": 2020,
+      "img": "../assets/yorushika-disco/shisouhan.jpeg",
+      "tracklist": [
+        {
+          "id": 1,
+          "jpName": "思想犯",
+          "romajiName": "Shisouhan",
+          "enName": "Thoughtcrime"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "Digital Single",
+      "jpName": "盗作",
+      "romajiName": "Tousaku",
+      "enName": "Plagiarism",
+      "yearReleased": 2020,
+      "img": "../assets/yorushika-disco/tousaku-single.png",
+      "tracklist": [
+        {
+          "id": 1,
+          "jpName": "盗作",
+          "romajiName": "Tousaku",
+          "enName": "Plagiarism"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "Album",
+      "jpName": "盗作",
+      "romajiName": "Tousaku",
+      "enName": "Plagiarism",
+      "yearReleased": 2020,
+      "img": "../assets/yorushika-disco/tousaku-album.png",
+      "tracklist": [
+        {
+          "id": 1,
+          "jpName": "音楽泥棒の自白",
+          "romajiName": "Ongaku Dorobou no Jihaku",
+          "enName": "Confession of Plagiarist"
+        },
+        {
+          "id": 2,
+          "jpName": "昼鳶",
+          "romajiName": "Hirutonbi",
+          "enName": "Burglar"
+        },
+        {
+          "id": 3,
+          "jpName": "春ひさぎ",
+          "romajiName": "Haru Hisagi",
+          "enName": "Prostitutiony"
+        },
+        {
+          "id": 4,
+          "jpName": "爆弾魔 Re-recording",
+          "romajiName": "Bakudanma Re-recording",
+          "enName": "Compulsive Bomber (Re-recording)"
+        },
+        {
+          "id": 6,
+          "jpName": "青年期, 空き巣",
+          "romajiName": "Seinen-ki, Akisu",
+          "enName": "Adolescent, Burglar"
+        },
+        {
+          "id": 6,
+          "jpName": "レプリカント",
+          "romajiName": "Repurikanto",
+          "enName": "Replicant"
+        },
+        {
+          "id": 7,
+          "jpName": "花人局",
+          "romajiName": "Hanamotase",
+          "enName": "Flower and Badger Game"
+        },
+        {
+          "id": 8,
+          "jpName": "朱夏期, 音楽泥棒",
+          "romajiName": "Shukaki, Ongaku Dorobou",
+          "enName": "Middle Age, Plagiarist"
+        },
+        {
+          "id": 9,
+          "jpName": "盗作",
+          "romajiName": "Tousaku",
+          "enName": "Plagiarism"
+        },
+        {
+          "id": 10,
+          "jpName": "思想犯",
+          "romajiName": "Shisouhan",
+          "enName": "Thoughtcrime"
+        },
+        {
+          "id": 11,
+          "jpName": "逃亡",
+          "romajiName": "Toubou",
+          "enName": "Escape"
+        },
+        {
+          "id": 12,
+          "jpName": "幼年期, 思い出の中",
+          "romajiName": "Younen-ki, Omoide no Naka",
+          "enName": "Childhood, In Memories"
+        },
+        {
+          "id": 13,
+          "jpName": "夜行",
+          "romajiName": "Yakou",
+          "enName": "Night Journey"
+        },
+        {
+          "id": 14,
+          "jpName": "花に亡霊",
+          "romajiName": "Hana ni Bourei",
+          "enName": "Ghost in A Flower"
+        }
+      ]
+    }, 
+    {
+      "id": 12,
+      "type": "Digital Single",
+      "jpName": "風を食む",
+      "romajiName": "Kaze wo Hamu",
+      "enName": "Eat the Wind",
+      "yearReleased": 2020,
+      "img": "../assets/yorushika-disco/kazewohamu.png",
+      "tracklist": [
+        {
+          "id": 1,
+          "jpName": "風を食む",
+          "romajiName": "Kaze wo Hamu",
+          "enName": "Eat the Wind"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "Digital Single",
+      "jpName": "春泥棒",
+      "romajiName": "Haru Dorobou",
+      "enName": "Spring Thief",
+      "yearReleased": 2021,
+      "img": "../assets/yorushika-disco/harudorobou.jpeg",
+      "tracklist": [
+        {
+          "id": 1,
+          "jpName": "春泥棒",
+          "romajiName": "Haru Dorobou",
+          "enName": "Spring Thief"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "type": "EP",
+      "jpName": "創作",
+      "romajiName": "Sousaku",
+      "enName": "Creation",
+      "yearReleased": 2021,
+      "img": "../assets/yorushika-disco/sousaku.jpeg",
+      "tracklist": [
+        {
+          "id": 1,
+          "jpName": "強盗と花束",
+          "romajiName": "Goutou to Hanataba",
+          "enName": "Robber and Bouquet"
+        },
+        {
+          "id": 2,
+          "jpName": "春泥棒",
+          "romajiName": "Haru Dorobou",
+          "enName": "Spring Thief"
+        },
+        {
+          "id": 3,
+          "jpName": "創作",
+          "romajiName": "Sousaku",
+          "enName": "Creation"
+        },
+        {
+          "id": 4,
+          "jpName": "風を食む",
+          "romajiName": "Kaze wo Hamu",
+          "enName": "Eat the Wind"
+        },
+        {
+          "id": 5,
+          "jpName": "嘘月",
+          "romajiName": "Usotsuki",
+          "enName": "Liar"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "type": "Digital Single",
+      "jpName": "又三郎",
+      "romajiName": "Matasaburo",
+      "enName": "Matasaburo",
+      "yearReleased": 2021,
+      "img": "../assets/yorushika-disco/matasaburo.jpeg",
+      "tracklist": [
+        {
+          "id": 1,
+          "jpName": "又三郎",
+          "romajiName": "Matasaburo",
+          "enName": "Matasaburo"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "type": "Digital Single",
+      "jpName": "老人と海",
+      "romajiName": "Roujin to Umi",
+      "enName": "The Old Man and The Sea",
+      "yearReleased": 2021,
+      "img": "../assets/yorushika-disco/roujinumi.jpeg",
+      "tracklist": [
+        {
+          "id": 1,
+          "jpName": "老人と海",
+          "romajiName": "Roujin to Umi",
+          "enName": "The Old Man and The Sea"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "type": "Digital Single",
+      "jpName": "月に吠える",
+      "romajiName": "Tsuki ni Hoeru",
+      "enName": "Howling at the Moon",
+      "yearReleased": 2021,
+      "img": "../assets/yorushika-disco/tsukinihoeru.jpeg",
+      "tracklist": [
+        {
+          "id": 1,
+          "jpName": "月に吠える",
+          "romajiName": "Tsuki ni Hoeru",
+          "enName": "Howling at the Moono"
+        }
+      ]
+    }
+  ]
+}
