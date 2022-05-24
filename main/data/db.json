@@ -7,7 +7,8 @@
       "romajiName": "Natsukusa ga Jama wo Suru",
       "enName": "The Summer Grass is Getting in My Way",
       "yearReleased": 2017,
-      "img": "../assets/yorushika-disco/natsukusa.jpeg",
+      "img": "src/assets/yorushika-disco/natsukusa.jpeg",
+      "detailsImg": "../src/assets/yorushika-disco/natsukusa.jpeg",
       "tracklist": [
         {
           "id": 1,
@@ -60,7 +61,8 @@
       "romajiName": "Makeinu ni Encore wa Iranai",
       "enName": "A Loser Doesn't Need an Encore",
       "yearReleased": 2018,
-      "img": "../assets/yorushika-disco/makeinu.jpeg",
+      "img": "src/assets/yorushika-disco/makeinu.jpeg",
+      "detailsImg": "../src/assets/yorushika-disco/makeinu.jpeg",
       "tracklist": [
         {
           "id": 1,
@@ -125,7 +127,8 @@
       "romajiName": "Dakara Boku wa Ongaku wo Yameta",
       "enName": "That's Why I Gave Up on Music",
       "yearReleased": 2019,
-      "img": "../assets/yorushika-disco/dakaboku.jpeg",
+      "img": "src/assets/yorushika-disco/dakaboku.jpeg",
+      "detailsImg": "../src/assets/yorushika-disco/dakaboku.jpeg",
       "tracklist": [
         {
           "id": 1,
@@ -220,7 +223,8 @@
       "romajiName": "Kokoro ni Ana ga Aita",
       "enName": "A Hole Opened Up in My Heart",
       "yearReleased": 2019,
-      "img": "../assets/yorushika-disco/kokoroana.jpeg",
+      "img": "src/assets/yorushika-disco/kokoroana.jpeg",
+      "detailsImg": "../src/assets/yorushika-disco/kokoroana.jpeg",
       "tracklist": [
         {
           "id": 1,
@@ -237,7 +241,8 @@
       "romajiName": "Eruma",
       "enName": "Elma",
       "yearReleased": 2019,
-      "img": "../assets/yorushika-disco/elma.jpeg",
+      "img": "src/assets/yorushika-disco/elma.jpeg",
+      "detailsImg": "../src/assets/yorushika-disco/elma.jpeg",
       "tracklist": [
         {
           "id": 1,
@@ -332,7 +337,8 @@
       "romajiName": "Yakou",
       "enName": "Night Journey",
       "yearReleased": 2020,
-      "img": "../assets/yorushika-disco/yakou.jpeg",
+      "img": "src/assets/yorushika-disco/yakou.jpeg",
+      "detailsImg": "../src/assets/yorushika-disco/yakou.jpeg",
       "tracklist": [
         {
           "id": 1,
@@ -349,7 +355,8 @@
       "romajiName": "Hana ni Bourei",
       "enName": "Ghost in A Flower",
       "yearReleased": 2020,
-      "img": "../assets/yorushika-disco/hananibourei.jpeg",
+      "img": "src/assets/yorushika-disco/hananibourei.jpeg",
+      "detailsImg": "../src/assets/yorushika-disco/hananibourei.jpeg",
       "tracklist": [
         {
           "id": 1,
@@ -366,13 +373,14 @@
       "romajiName": "Haru Hisagi",
       "enName": "Prostitution",
       "yearReleased": 2020,
-      "img": "../assets/yorushika-disco/haruhisagi.jpeg",
+      "img": "src/assets/yorushika-disco/haruhisagi.jpeg",
+      "detailsImg": "../src/assets/yorushika-disco/haruhisagi.jpeg",
       "tracklist": [
         {
           "id": 1,
           "jpName": "春ひさぎ",
           "romajiName": "Haru Hisagi",
-          "enName": "Prostitutiony"
+          "enName": "Prostitution"
         }
       ]
     },
@@ -383,7 +391,8 @@
       "romajiName": "Shisouhan",
       "enName": "Thoughtcrime",
       "yearReleased": 2020,
-      "img": "../assets/yorushika-disco/shisouhan.jpeg",
+      "img": "src/assets/yorushika-disco/shisouhan.png",
+      "detailsImg": "../src/assets/yorushika-disco/shisouhan.png",
       "tracklist": [
         {
           "id": 1,
@@ -400,7 +409,8 @@
       "romajiName": "Tousaku",
       "enName": "Plagiarism",
       "yearReleased": 2020,
-      "img": "../assets/yorushika-disco/tousaku-single.png",
+      "img": "src/assets/yorushika-disco/tousaku-single.png",
+      "detailsImg": "../src/assets/yorushika-disco/tousaku-single.png",
       "tracklist": [
         {
           "id": 1,
@@ -417,7 +427,8 @@
       "romajiName": "Tousaku",
       "enName": "Plagiarism",
       "yearReleased": 2020,
-      "img": "../assets/yorushika-disco/tousaku-album.png",
+      "img": "src/assets/yorushika-disco/tousaku-album.png",
+      "detailsImg": "../src/assets/yorushika-disco/tousaku-album.png",
       "tracklist": [
         {
           "id": 1,
@@ -435,7 +446,7 @@
           "id": 3,
           "jpName": "春ひさぎ",
           "romajiName": "Haru Hisagi",
-          "enName": "Prostitutiony"
+          "enName": "Prostitution"
         },
         {
           "id": 4,
@@ -512,7 +523,8 @@
       "romajiName": "Kaze wo Hamu",
       "enName": "Eat the Wind",
       "yearReleased": 2020,
-      "img": "../assets/yorushika-disco/kazewohamu.png",
+      "img": "src/assets/yorushika-disco/kazewohamu.png",
+      "detailsImg": "../src/assets/yorushika-disco/kazewohamu.png",
       "tracklist": [
         {
           "id": 1,
@@ -529,7 +541,8 @@
       "romajiName": "Haru Dorobou",
       "enName": "Spring Thief",
       "yearReleased": 2021,
-      "img": "../assets/yorushika-disco/harudorobou.jpeg",
+      "img": "src/assets/yorushika-disco/harudorobou.jpeg",
+      "detailsImg": "../src/assets/yorushika-disco/harudorobou.jpeg",
       "tracklist": [
         {
           "id": 1,
@@ -546,7 +559,8 @@
       "romajiName": "Sousaku",
       "enName": "Creation",
       "yearReleased": 2021,
-      "img": "../assets/yorushika-disco/sousaku.jpeg",
+      "img": "src/assets/yorushika-disco/sousaku.jpeg",
+      "detailsImg": "../src/assets/yorushika-disco/sousaku.jpeg",
       "tracklist": [
         {
           "id": 1,
@@ -587,7 +601,8 @@
       "romajiName": "Matasaburo",
       "enName": "Matasaburo",
       "yearReleased": 2021,
-      "img": "../assets/yorushika-disco/matasaburo.jpeg",
+      "img": "src/assets/yorushika-disco/matasaburo.jpeg",
+      "detailsImg": "../src/assets/yorushika-disco/matasaburo.jpeg",
       "tracklist": [
         {
           "id": 1,
@@ -604,7 +619,8 @@
       "romajiName": "Roujin to Umi",
       "enName": "The Old Man and The Sea",
       "yearReleased": 2021,
-      "img": "../assets/yorushika-disco/roujinumi.jpeg",
+      "img": "src/assets/yorushika-disco/roujinumi.jpeg",
+      "detailsImg": "../src/assets/yorushika-disco/roujinumi.jpeg",
       "tracklist": [
         {
           "id": 1,
@@ -621,7 +637,8 @@
       "romajiName": "Tsuki ni Hoeru",
       "enName": "Howling at the Moon",
       "yearReleased": 2021,
-      "img": "../assets/yorushika-disco/tsukinihoeru.jpeg",
+      "img": "src/assets/yorushika-disco/tsukinihoeru.jpeg",
+      "detailsImg": "../src/assets/yorushika-disco/tsukinihoeru.jpeg",
       "tracklist": [
         {
           "id": 1,
