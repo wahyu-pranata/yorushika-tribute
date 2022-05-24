@@ -16,6 +16,20 @@ module.exports = {
       fontFamily: {
         'nunitosans': '"Nunito Sans"',
         'lora': '"Lora"'
+      },
+      keyframes: {
+        show: {
+          '0%': {
+            opacity: '0', 
+            display: 'block'
+          },
+          '50%': { 
+            opacity: '0.6'
+          }
+        }
+      },
+      animation: {
+        'show': 'show 0.2s ease-in 1'
       }
     },
   },
