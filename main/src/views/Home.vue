@@ -1,16 +1,18 @@
 <template>
   <div class="main">
-      <Banner/>
-      <Introduction id="about"/>
-    </div>
+    <Banner message="A Tribute Page" logo="src/assets/yorulogo.jpg"/>
+    <Introduction id="about"/>
+    <News />
+  </div>
 </template>
 
 <script>
 import Banner from '../components/Banner.vue'
 import Introduction from '../components/Introduction.vue'
+import News from '../components/News.vue'
 export default {
   components: {
-    Banner, Introduction
+    Banner, Introduction, News
   }
 }
 </script>
