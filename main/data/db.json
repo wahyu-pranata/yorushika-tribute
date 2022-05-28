@@ -648,5 +648,118 @@
         }
       ]
     }
+  ],
+  "biography": [
+    {
+      "id" : 1,
+      "year": 2017,
+      "details": [
+        "On April, started the activity of Yorushika",
+        "On June, their first Mini Album '夏草が邪魔をする' (Natsukusa ga Jama wo Suru) released",
+        "On July, Yorushika first Live '夏草が邪魔をする' held at Shinjuku BLAZE"
+      ]
+    },
+    {
+      "id": 2,
+      "year": 2018,
+      "details": [
+        "On May, their second Mini Album '負け犬にアンコールはいらない' (Makeinu ni Encore wa Iranai) released"
+      ]
+    },
+    {
+      "id": 3,
+      "year": 2019,
+      "details": [
+        "On April, their first Full Album 'だから僕は音楽を辞めた' (Dakara Boku wa Ongaku wo Yameta)",
+        "On August, their second Full Album 'エルマ' (Elma) released",
+        "On October, Yorushika LIVE TOUR 2019 '月光' held at Higashi-Meihan"
+      ]
+    },
+    {
+      "id": 4,
+      "year": 2020,
+      "details": [
+        "On July, their third Full Album '盗作' (Tousaku) released"
+      ]
+    },
+    {
+      "id": 5,
+      "year": 2021,
+      "details": [
+        "On January, Yorushika live 'Zense' is held online live",
+        "On January, EP 'Sousaku' released",
+        "On May, Blu-ray and DVD of Yorushika LIVE 'Zense' released",
+        "On August, Yorushika Live Tour 2021 '盗作' is held in 6 cities in Japan"
+      ]
+    },
+    {
+      "id": 6,
+      "year": 2022,
+      "details": [
+        "On March, Yorushika Live Tour 2022 '月光 再演' (Moonlight Revival) is held at Higashi-Meihan"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "date": "2022.05.25",
+      "title": "Yorushika Live 'Moonlight' Blu-ray & DVD Released",
+      "body": "Aliquam pretium, lacus eget dictum pharetra, ante sem dapibus dui, non euismod est sem eu ante. Suspendisse mollis ex tellus, ut viverra erat elementum eget. Morbi dapibus nisi vitae diam suscipit faucibus. Nulla sed elementum ante. Nulla ipsum dui, sodales quis eros non, viverra commodo ex. Etiam quis ante a ex pretium dictum eu id tellus. Morbi aliquet nulla id nibh cursus cursus. Aliquam erat volutpat."
+    },
+    {
+      "id": 2,
+      "date": "2022.03.09",
+      "title": "Tatsuya Kitani's 'Chiharu ft. n-buna from Yorushika', n-buna is in charge of guitar",
+      "body": "Aliquam pretium, lacus eget dictum pharetra, ante sem dapibus dui, non euismod est sem eu ante. Suspendisse mollis ex tellus, ut viverra erat elementum eget. Morbi dapibus nisi vitae diam suscipit faucibus. Nulla sed elementum ante. Nulla ipsum dui, sodales quis eros non, viverra commodo ex. Etiam quis ante a ex pretium dictum eu id tellus. Morbi aliquet nulla id nibh cursus cursus. Aliquam erat volutpat."
+    },
+    {
+      "id": 3,
+      "date": "2022.03.02",
+      "title": "Yorushika Live Tour 2022 'Moonlight Revival' Venue CD Sales Information",
+      "body": "Aliquam pretium, lacus eget dictum pharetra, ante sem dapibus dui, non euismod est sem eu ante. Suspendisse mollis ex tellus, ut viverra erat elementum eget. Morbi dapibus nisi vitae diam suscipit faucibus. Nulla sed elementum ante. Nulla ipsum dui, sodales quis eros non, viverra commodo ex. Etiam quis ante a ex pretium dictum eu id tellus. Morbi aliquet nulla id nibh cursus cursus. Aliquam erat volutpat."
+    },
+    {
+      "id": 4,
+      "date": "2022.03.01",
+      "title": "n-buna is responsible for arranging 'your trip' by chilldspot",
+      "body": "Aliquam pretium, lacus eget dictum pharetra, ante sem dapibus dui, non euismod est sem eu ante. Suspendisse mollis ex tellus, ut viverra erat elementum eget. Morbi dapibus nisi vitae diam suscipit faucibus. Nulla sed elementum ante. Nulla ipsum dui, sodales quis eros non, viverra commodo ex. Etiam quis ante a ex pretium dictum eu id tellus. Morbi aliquet nulla id nibh cursus cursus. Aliquam erat volutpat."
+    },
+    {
+      "id": 5,
+      "date": "2022.02.15",
+      "title": "In charge of narration for Fuji TV's \"The Nonfiction\"",
+      "body": "Aliquam pretium, lacus eget dictum pharetra, ante sem dapibus dui, non euismod est sem eu ante. Suspendisse mollis ex tellus, ut viverra erat elementum eget. Morbi dapibus nisi vitae diam suscipit faucibus. Nulla sed elementum ante. Nulla ipsum dui, sodales quis eros non, viverra commodo ex. Etiam quis ante a ex pretium dictum eu id tellus. Morbi aliquet nulla id nibh cursus cursus. Aliquam erat volutpat."
+    },
+    {
+      "id": 6,
+      "date": "2021.12.11",
+      "title": "Live Tour 2022 'Moonlight Revival' Announcement",
+      "body": "Aliquam pretium, lacus eget dictum pharetra, ante sem dapibus dui, non euismod est sem eu ante. Suspendisse mollis ex tellus, ut viverra erat elementum eget. Morbi dapibus nisi vitae diam suscipit faucibus. Nulla sed elementum ante. Nulla ipsum dui, sodales quis eros non, viverra commodo ex. Etiam quis ante a ex pretium dictum eu id tellus. Morbi aliquet nulla id nibh cursus cursus. Aliquam erat volutpat."
+    },
+    {
+      "id": 7,
+      "date": "2021.11.12",
+      "title": "Shincho Bunko X Yorushika Limited Cover Book Release Notice",
+      "body": "Aliquam pretium, lacus eget dictum pharetra, ante sem dapibus dui, non euismod est sem eu ante. Suspendisse mollis ex tellus, ut viverra erat elementum eget. Morbi dapibus nisi vitae diam suscipit faucibus. Nulla sed elementum ante. Nulla ipsum dui, sodales quis eros non, viverra commodo ex. Etiam quis ante a ex pretium dictum eu id tellus. Morbi aliquet nulla id nibh cursus cursus. Aliquam erat volutpat."
+    },
+    {
+      "id": 8,
+      "date": "2021.10.11",
+      "title": "Yorushika Live Tour 2021 'Plagiarism' Venua Advance Goods Mail Order Start Notice",
+      "body": "Aliquam pretium, lacus eget dictum pharetra, ante sem dapibus dui, non euismod est sem eu ante. Suspendisse mollis ex tellus, ut viverra erat elementum eget. Morbi dapibus nisi vitae diam suscipit faucibus. Nulla sed elementum ante. Nulla ipsum dui, sodales quis eros non, viverra commodo ex. Etiam quis ante a ex pretium dictum eu id tellus. Morbi aliquet nulla id nibh cursus cursus. Aliquam erat volutpat."
+    },
+    {
+      "id": 9,
+      "date": "2021.10.04",
+      "title": "New Music Video for 'Howling at the Moon' Released",
+      "body": "Aliquam pretium, lacus eget dictum pharetra, ante sem dapibus dui, non euismod est sem eu ante. Suspendisse mollis ex tellus, ut viverra erat elementum eget. Morbi dapibus nisi vitae diam suscipit faucibus. Nulla sed elementum ante. Nulla ipsum dui, sodales quis eros non, viverra commodo ex. Etiam quis ante a ex pretium dictum eu id tellus. Morbi aliquet nulla id nibh cursus cursus. Aliquam erat volutpat."
+    },
+    {
+      "id": 10,
+      "date": "2021.10.04",
+      "title": "Notice of 'Postscript Radio' Commemorating the Completion of The Plagiarism Tour",
+      "body": "Aliquam pretium, lacus eget dictum pharetra, ante sem dapibus dui, non euismod est sem eu ante. Suspendisse mollis ex tellus, ut viverra erat elementum eget. Morbi dapibus nisi vitae diam suscipit faucibus. Nulla sed elementum ante. Nulla ipsum dui, sodales quis eros non, viverra commodo ex. Etiam quis ante a ex pretium dictum eu id tellus. Morbi aliquet nulla id nibh cursus cursus. Aliquam erat volutpat."
+    }
   ]
 }
