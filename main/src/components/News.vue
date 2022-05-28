@@ -1,30 +1,48 @@
 <template>
-  <div class="pt-6 flex flex-col items-center">
-    <h1 class="heading">News</h1>
+  <div class="w-4/5 px-3 pt-6 mx-auto grid grid-cols-8 space-x-2 divide-x divide-yoru-300">
+    <h1 class="news-heading">NEWS</h1>
     <div class="news-container">
-      <div class="news" v-for="n in 6">
-        <h2 class="headline">Some great title</h2>
-        <p class="news-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas labore qui iure harum suscipit facilis nemo libero ad, amet ullam rem aut deserunt molestiae dicta.</p>
-        <p class="news-date">2022-05-04</p>
+      <div class="news" v-for="n in news" :key="n.id">
+        <p class="news-date">{{ n.date }}</p>
+        <h2 class="headline">{{ n.title }}</h2>
       </div>
     </div>
   </div>
 </template>
 
-<style scoped>
-  .heading {
-    @apply text-center mx-auto relative inline-block font-lora text-yoru-400 text-4xl underline decoration-yoru-300 decoration-2 underline-offset-2
+<script>
+export default {
+  data() {
+    return {
+      news: []
+    }
+  },
+  mounted() {
+    fetch('http://localhost:3000/news')
+      .then(res => res.json())
+      .then(data => this.news = data)
+      .catch(err => console.log(err.message))
+  }
+}
+</script>
+
+<style>
+  .news-heading {
+    @apply font-lora text-2xl underline decoration-yoru-300 text-center tracking-widest
   }
   .news-container {
-    @apply mt-4 divide-y divide-yoru-200 w-2/3
-  }
+    @apply divide-y divide-yoru-200 col-span-7 pl-4
+  } 
   .headline {
-    @apply mt-4 text-2xl font-nunitosans underline decoration-yoru-200 decoration-2 underline-offset-[1px]
+    @apply font-nunitosans ml-8
+  }
+  .news {
+    @apply flex items-center h-9
   }
   .news-detail {
     @apply font-nunitosans 
   }
   .news-date {
-    @apply font-nunitosans text-right text-sm text-yoru-200
+    @apply font-nunitosans text-right text-xs py-px px-1 bg-yoru-200 text-white
   }
 </style>
