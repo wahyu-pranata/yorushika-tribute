@@ -4,7 +4,7 @@
       <img :src="disco.img" :alt="disco.romajiName + ' image'" class="image">
       <div class="overlay"></div>
       <div class="text-overlay">
-        <router-link :to="{name: 'Discography Details', params: {id: disco.id}}" class="link"> {{ disco.enName }} </router-link>
+        <router-link :to="{name: 'Discography Details', params: {id: disco.id}}" class="disco-link"> {{ disco.enName }} </router-link>
         <small>{{ disco.type}} - {{ disco.yearReleased }} </small>
       </div>
     </div>
@@ -37,7 +37,7 @@ export default {
   .disco {
     @apply relative rounded-xl shadow-lg transition-all ease-in duration-200 hover:scale-[.99] hover:shadow-none
   }
-  .link {
+  .disco-link {
     @apply focus:border-none focus:outline-none
   }
   .image {
