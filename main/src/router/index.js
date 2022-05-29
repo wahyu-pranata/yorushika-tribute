@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import Biography from '../views/Biography.vue'
 import Discography from '../views/Discography.vue'
 import DiscoDetails from '../views/Details/Discography.vue'
+import Movie from '../views/Movie.vue'
 
 const routes = [
   {
@@ -25,6 +26,11 @@ const routes = [
     name: 'Discography Details',
     component: DiscoDetails,
     props: true
+  },
+  {
+    path: '/movies',
+    name: 'Movies',
+    component: Movie
   }
 ]
 
