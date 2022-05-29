@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <Banner message="A Tribute Page" logo="src/assets/yorulogo.jpg"/>
+    <Banner/>
     <Introduction id="about"/>
     <News />
   </div>
