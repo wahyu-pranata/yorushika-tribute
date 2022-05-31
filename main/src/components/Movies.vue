@@ -22,11 +22,12 @@
 export default {
     data() {
         return {
-            yt: []
+            yt: [],
+            apiURL: 'http://localhost:3002/'
         }
     },
     mounted() {
-        fetch('https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCRIgIJQWuBJ0Cv_VlU3USNA&maxResults=10&order=date&key=AIzaSyCg8FwT8MZPx94BzPQfrKYBE_KDfhMiZdk')
+        fetch(`${ this.apiURL }`)
             .then(data => data.json())
             .then(res => this.yt = res.items)
             .catch(err => console.log(err.message))
