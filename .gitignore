@@ -1,24 +1,25 @@
 # Logs
-main/logs
-main/*.log
-main/npm-debug.log*
-main/yarn-debug.log*
-main/yarn-error.log*
-main/pnpm-debug.log*
-main/lerna-debug.log*
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-main/node_modules
-main/dist
-main/dist-ssr
-main/*.local
+node_modules
+dist
+dist-ssr
+*.local
+.env
 
 # Editor directories and files
-main/.vscode/*
-main/!.vscode/extensions.json
-main/.idea
-main/.DS_Store
-main/*.suo
-main/*.ntvs*
-main/*.njsproj
-main/*.sln
-main/*.sw?
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
