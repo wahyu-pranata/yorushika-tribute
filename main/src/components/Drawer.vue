@@ -6,7 +6,7 @@
         <li><router-link to="/about" @click="$emit('switch')">about</router-link></li>
         <li><router-link to="/biography" @click="$emit('switch')">biography</router-link></li>
         <li><router-link to="/disco" @click="$emit('switch')">discography</router-link></li>
-        <li><router-link to="/movie" @click="$emit('switch')">movie</router-link></li>
+        <li><router-link to="/movies" @click="$emit('switch')">movie</router-link></li>
       </ul>
     </div>
   </div>
