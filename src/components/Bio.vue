@@ -11,7 +11,7 @@
             </div>
         </div>
     </div>
-    <p v-else>
+    <p v-else class="loader">
         Loading Biography Data...
     </p>
 </template>
@@ -32,7 +32,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .bio-container {
     @apply  max-w-3xl mx-auto space-y-4
 }

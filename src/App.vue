@@ -6,30 +6,33 @@
 <script>
 import Navbar from './components/Navbar.vue'
 export default {
-  components: {
-    Navbar
-  },
-  data() {
-    return {
-      drawerVis: false
-    }
-  },
-  methods: {
-    toggleDrawer() {
-      this.drawerVis = !this.drawerVis
-    }
-  }
+	components: {
+		Navbar
+	},
+	data() {
+		return {
+		drawerVis: false
+		}
+	},
+	methods: {
+		toggleDrawer() {
+		this.drawerVis = !this.drawerVis
+		}
+	}
 }
 </script>
 
 <style>
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 html {
-  @apply scroll-smooth
+	@apply scroll-smooth
 }
 .main {
-  @apply ml-14
+	@apply ml-14
+}
+.loader {
+	@apply text-center text-lg font-lora text-yoru-300
 }
 </style>

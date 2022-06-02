@@ -16,6 +16,9 @@
             </div>
         </div>
     </div>
+    <p class="loader" v-else>
+        Loading movies data...
+    </p>
 </template>
 
 <script>

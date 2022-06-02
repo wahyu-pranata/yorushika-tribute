@@ -1,36 +1,36 @@
 <template>
-  <div>
-    <nav class="navbar">
-      <p class="menu" @click="$emit('tog-drawer')">{{ drawerText }}</p>
-    </nav>
-    <Drawer :class="isDrawerActive" @switch="$emit('switch')"/>
-    <div v-if="drawervis">
-      <div class="fixed inset-0 ml-14 bg-black/50 z-10 overflow-hidden" @click.self="$emit('close')"></div>
+    <div>
+		<nav class="navbar">
+			<p class="menu" @click="$emit('tog-drawer')">{{ drawerText }}</p>
+		</nav>
+		<Drawer :class="isDrawerActive" @switch="$emit('switch')"/>
+		<div v-if="drawervis">
+			<div class="fixed inset-0 ml-14 bg-black/50 z-10 overflow-hidden" @click.self="$emit('close')"></div>
+		</div>
     </div>
-  </div>
 </template>
 
 <script>
 import Drawer from './Drawer.vue'
 export default {
-  components: {
-    Drawer
-  },
-  props: {
-    drawervis: Boolean
-  },
-  computed: {
-    isDrawerActive() {
-      return this.drawervis ? "active" : "inactive"
-    },
+	components: {
+		Drawer
+	},
+	props: {
+		drawervis: Boolean
+	},
+	computed: {
+		isDrawerActive() {
+		return this.drawervis ? "active" : "inactive"
+	},
     drawerText() {
-      return this.drawervis ? "CLSE" : "MENU"
+		return this.drawervis ? "CLSE" : "MENU"
     }
   }
 }
 </script>
 
-<style scoped>
+<style>
 .navbar {
   @apply h-screen w-14 bg-yoru-200 fixed top-0 left-0 z-50
 }

@@ -18,7 +18,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .drawer-container {
   @apply fixed top-0 left-14 transition-all duration-300 ease-out select-none z-[11]
 }
