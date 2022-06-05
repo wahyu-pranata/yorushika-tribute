@@ -4,6 +4,7 @@ import Biography from '../views/Biography.vue'
 import Discography from '../views/Discography.vue'
 import DiscoDetails from '../views/Details/Discography.vue'
 import Movie from '../views/Movie.vue'
+import About from '../views/About.vue'
 
 const routes = [
   {
@@ -31,6 +32,11 @@ const routes = [
     path: '/movies',
     name: 'Movies',
     component: Movie
+  },
+  {
+    path: '/about',
+    name: 'About',
+    component: About
   }
 ]
 
