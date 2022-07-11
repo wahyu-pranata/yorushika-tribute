@@ -515,7 +515,7 @@
           "enName": "Ghost in A Flower"
         }
       ]
-    }, 
+    },
     {
       "id": 12,
       "type": "Digital Single",
@@ -651,7 +651,7 @@
   ],
   "biography": [
     {
-      "id" : 1,
+      "id": 1,
       "year": 2017,
       "details": [
         "On April, started the activity of Yorushika",
@@ -678,9 +678,7 @@
     {
       "id": 4,
       "year": 2020,
-      "details": [
-        "On July, their third Full Album '盗作' (Tousaku) released"
-      ]
+      "details": ["On July, their third Full Album '盗作' (Tousaku) released"]
     },
     {
       "id": 5,

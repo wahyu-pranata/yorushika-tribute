@@ -1,37 +1,41 @@
 <template>
   <div class="main">
     <div v-if="disco">
-      <Banner :message="disco.jpName" :sub="disco.enName" :logo="disco.detailsImg"/>
+      <Banner
+        :message="disco.jpName"
+        :sub="disco.enName"
+        :logo="disco.detailsImg"
+      />
     </div>
     <div v-else>
-      <h1 class="text-2xl text-center">Loading discography data...</h1>
+      <h1 class="text-center text-2xl">Loading discography data...</h1>
     </div>
-    <Tracklist :data="disco"/>
+    <Tracklist :data="disco" />
   </div>
 </template>
 
 <script>
-import Banner from '../../components/Banner.vue'
-import Tracklist from '../../components/Tracklist.vue'
+import Banner from "../../components/Banner.vue";
+import Tracklist from "../../components/Tracklist.vue";
 export default {
-  components: {Banner, Tracklist},
-  props: ['id'],
+  components: { Banner, Tracklist },
+  props: ["id"],
   data() {
     return {
-      disco: null
-    }
+      disco: null,
+    };
   },
   mounted() {
-    fetch('http://localhost:3000/discography/' + this.id)
-      .then(res => res.json())
-      .then(data => this.disco = data)
-      .catch(err => console.log(err.message))
-  }
-}
+    fetch("http://localhost:3000/discography/" + this.id)
+      .then((res) => res.json())
+      .then((data) => (this.disco = data))
+      .catch((err) => console.log(err.message));
+  },
+};
 </script>
 
 <style>
 .main {
-  @apply -z-10
+  @apply -z-10;
 }
 </style>

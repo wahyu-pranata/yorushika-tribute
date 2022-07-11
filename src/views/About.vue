@@ -1,20 +1,19 @@
 <template>
-    <div id="main">
-        <Banner message="About" sub="Why I made this?"/>
-        <About/>
-    </div>
+  <div id="main">
+    <Banner message="About" sub="Why I made this?" />
+    <About />
+  </div>
 </template>
 
 <script>
-import Banner from '../components/Banner.vue'
-import About from '../components/About.vue'
+import Banner from "../components/Banner.vue";
+import About from "../components/About.vue";
 export default {
-    components: {
-        Banner, About
-    },
-}
+  components: {
+    Banner,
+    About,
+  },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>
