@@ -1,9 +1,4 @@
 <template>
-  <div class="intro-content">
-    <div class="intro-content-heading">
-      <h2>Works</h2>
-      <router-link to="/disco" class="intro-side-link">View More!</router-link>
-    </div>
     <div class="intro-content-body">
       <h3>Album</h3>
       <ul class="list-container">
@@ -12,7 +7,6 @@
         </li>
       </ul>
     </div>
-  </div>
 </template>
 
 <script>

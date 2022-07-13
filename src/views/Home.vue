@@ -2,7 +2,6 @@
   <div class="main">
     <Banner />
     <Introduction id="about" />
-    <News />
   </div>
 </template>
 
