@@ -644,7 +644,25 @@
           "id": 1,
           "jpName": "月に吠える",
           "romajiName": "Tsuki ni Hoeru",
-          "enName": "Howling at the Moono"
+          "enName": "Howling at the Moon"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "type": "Digital Single",
+      "jpName": "ブレーメン",
+      "romajiName": "Bureemen",
+      "enName": "Bremen",
+      "yearReleased": 2022,
+      "img": "src/assets/yorushika-disco/bremen.jpeg",
+      "detailsImg": "../src/assets/yorushika-disco/bremen.jpeg",
+      "tracklist": [
+        {
+          "id": 1,
+          "jpName": "ブレーメン",
+          "romajiName": "Bureemen",
+          "enName": "Bremen"
         }
       ]
     }
