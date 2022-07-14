@@ -39,11 +39,14 @@
     </div>
   </div>
   <p class="loader" v-else>Loading movies data...</p>
-  <Modal
-    v-if="modalOpened"
-    :modalVideoId="modalVideoId"
-    @modalClosed="modalOpened = false"
-  />
+  <div class="modal-overlay" v-if="modalOpened"></div>
+  <Transition name="fadeup">
+    <Modal
+      v-if="modalOpened"
+      :modalVideoId="modalVideoId"
+      @modalClosed="modalOpened = false"
+    />
+  </Transition>
 </template>
 
 <script>
@@ -64,6 +67,7 @@ export default {
     openModal(id) {
       this.modalOpened = true;
       this.modalVideoId = id;
+      document.body.classList.add("unscrollable")
     },
   },
   mounted() {
@@ -85,7 +89,7 @@ export default {
   @apply mx-auto grid max-w-3xl grid-cols-2 gap-8;
 }
 .video {
-  @apply relative;
+  @apply relative cursor-pointer;
 }
 .overlay {
   @apply absolute inset-0 rounded-xl bg-black opacity-0 transition-all group-hover:opacity-75;

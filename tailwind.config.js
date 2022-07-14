@@ -24,9 +24,16 @@ module.exports = {
             opacity: "0.6",
           },
         },
+        fadeup: {
+          "to": {
+            transform: "translateY(-48px)",
+            opacity: "1"
+          }
+        }
       },
       animation: {
         show: "show 0.2s ease-in 1",
+        fadeup: "fadeup 1s ease-in forwards"
       },
     },
   },
