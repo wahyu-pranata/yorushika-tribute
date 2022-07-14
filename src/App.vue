@@ -5,14 +5,19 @@
     :drawervis="drawerVis"
     @close="this.drawerVis = false"
   />
-  <router-view class="main"></router-view>
+  <div class="main">
+    <router-view></router-view>
+    <Footer/>
+  </div>
 </template>
 
 <script>
+import Footer from './components/Footer.vue';
 import Navbar from "./components/Navbar.vue";
 export default {
   components: {
     Navbar,
+    Footer,
   },
   data() {
     return {
@@ -39,5 +44,8 @@ html {
 }
 .loader {
   @apply text-center font-lora text-lg text-yoru-300;
+}
+#app {
+  @apply overflow-y-hidden
 }
 </style>
