@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div class="bio">
     <Banner message="Biography" />
     <Bio />
   </div>
@@ -17,7 +17,7 @@ export default {
 </script>
 
 <style>
-.main {
+.bio {
   @apply -z-10;
 }
 </style>

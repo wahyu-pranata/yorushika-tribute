@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div class="disco-view">
     <Banner message="Discography" logo="src/assets/yorulogo.jpg" />
     <Disco />
   </div>
@@ -17,7 +17,7 @@ export default {
 </script>
 
 <style scoped>
-.main {
+.disco-view {
   @apply -z-10;
 }
 </style>

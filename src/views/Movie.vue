@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div>
     <Banner
       message="Movies"
       sub="Latest Videos from Yorushika Official YouTube Channel"

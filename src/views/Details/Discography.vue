@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div class="disco-details">
     <div v-if="disco">
       <Banner
         :message="disco.jpName"
@@ -35,7 +35,7 @@ export default {
 </script>
 
 <style>
-.main {
+.disco-details {
   @apply -z-10;
 }
 </style>
