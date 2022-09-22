@@ -38,7 +38,7 @@
       </div>
     </div>
   </div>
-  <p class="loader" v-else>Loading movies data...</p>
+  <p class="loader" v-else @click="console.log(apiUrl)">Loading movies data...</p>
   <div class="modal-overlay" v-if="modalOpened"></div>
   <Transition name="fadeup">
     <Modal
@@ -51,17 +51,34 @@
 
 <script>
 import Modal from "./Modal.vue";
+import {ref, computed } from "vue";
 export default {
+  components: {
+    Modal,
+  },
+  setup() {
+    let modalOpened = ref(false);
+    let modalVideoId = ref("")
+    let yt = ref([]);
+    let url = ref(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCRIgIJQWuBJ0Cv_VlU3USNA&maxResults=11&order=date&key=`);
+
+    const openModal = id => {
+      modalOpened = true;
+      modalVideoId = id;
+      document.body.classList.add("unscrollable")
+    }
+
+    const ytVideos = computed()
+    
+
+  },
   data() {
     return {
       modalOpened: false,
       modalVideoId: "",
       yt: [],
-      apiURL: "http://localhost:3002/",
+      url: `https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCRIgIJQWuBJ0Cv_VlU3USNA&maxResults=11&order=date&key=`,
     };
-  },
-  components: {
-    Modal,
   },
   methods: {
     openModal(id) {
@@ -70,16 +87,19 @@ export default {
       document.body.classList.add("unscrollable")
     },
   },
-  mounted() {
-    fetch(`${this.apiURL}`)
-      .then((data) => data.json())
-      .then((res) => (this.yt = res.items))
-      .catch((err) => console.log(err.message));
-  },
   computed: {
     ytVideos() {
       return this.yt.filter((e) => e.id.kind == "youtube#video");
     },
+    apiUrl() {
+      return this.url + this.key
+    }
+  },
+   mounted() {
+    fetch(`${this.apiUrl}`)
+      .then((data) => data.json())
+      .then((res) => (this.yt = res.items))
+      .catch((err) => console.log(err.message));
   },
 };
 </script>

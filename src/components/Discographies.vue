@@ -27,7 +27,7 @@ export default {
   mounted() {
     fetch("http://localhost:3000/discography")
       .then((res) => res.json())
-      .then((data) => (this.discographies = data))
+      .then((data) => this.discographies = data)
       .catch((err) => console.log(err.message));
   },
 };
