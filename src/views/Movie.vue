@@ -4,17 +4,11 @@
       message="Movies"
       sub="Latest Videos from Yorushika Official YouTube Channel"
     />
-    <Movies />
+    <Movies/>
   </div>
 </template>
 
-<script>
+<script setup>
 import Banner from "../components/Banner.vue";
 import Movies from "../components/Movies.vue";
-export default {
-  components: {
-    Movies,
-    Banner,
-  },
-};
 </script>
