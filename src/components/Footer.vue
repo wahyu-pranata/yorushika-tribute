@@ -12,7 +12,7 @@ export default {
 
 <style scoped>
   footer {
-    @apply w-full text-center py-2 mt-4 bg-yoru-200
+    @apply w-full text-center py-2 mt-16 bg-yoru-200
   }
   p {
     @apply text-white

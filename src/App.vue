@@ -50,6 +50,9 @@ html {
 .main {
   @apply ml-14;
 }
+.main > *:not(footer) {
+  min-height: calc(100vh - 104px);
+}
 .loader {
   @apply text-center font-lora text-lg text-yoru-300;
 }
