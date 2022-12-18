@@ -665,6 +665,42 @@
           "enName": "Bremen"
         }
       ]
+    },
+    {
+      "id": 19,
+      "type": "Digital Single",
+      "jpName": "左右盲",
+      "romajiName": "Sayuumou",
+      "enName": "Left Right Confusion",
+      "yearReleased": 2022,
+      "img": "src/assets/yorushika-disco/lrconfusion.jpeg",
+      "detailsImg": "../src/assets/yorushika-disco/lrconfusion.jpeg",
+      "tracklist": [
+        {
+          "id": 1,
+          "jpName": "左右盲",
+          "romajiName": "Sayuumou",
+          "enName": "Left Right Confusion"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "type": "Digital Single",
+      "jpName": "チノカテ",
+      "romajiName": "Chinokate",
+      "enName": "Chinokate",
+      "yearReleased": 2022,
+      "img": "src/assets/yorushika-disco/chinokate.jpeg",
+      "detailsImg": "../src/assets/yorushika-disco/chinokate.jpeg",
+      "tracklist": [
+        {
+          "id": 1,
+          "jpName": "チノカテ",
+          "romajiName": "Chinokate",
+          "enName": "Chinokate"
+        }
+      ]
     }
   ],
   "biography": [
