@@ -1,9 +1,8 @@
 <template>
   <div v-if="screenWidth >= 800">
     <Navbar
-      @tog-drawer="toggleDrawer"
-      @switch="toggleDrawer"
-      :drawervis="drawerVis"
+      :drawer-visibility="drawerVisibility"
+      @toggle-drawer="toggleDrawer"
       @close="this.drawerVis = false"
     />
     <div class="main">
@@ -18,26 +17,17 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import { ref } from "vue";
 import Footer from './components/Footer.vue';
 import Navbar from "./components/Navbar.vue";
-export default {
-  components: {
-    Navbar,
-    Footer,
-  },
-  data() {
-    return {
-      drawerVis: false,
-      screenWidth: screen.width
-    };
-  },
-  methods: {
-    toggleDrawer() {
-      this.drawerVis = !this.drawerVis;
-    },
-  },
-};
+
+let drawerVisibility = ref(false);
+let screenWidth = screen.width;
+
+function toggleDrawer() {
+  drawerVisibility.value = !drawerVisibility.value
+}
 </script>
 
 <style>

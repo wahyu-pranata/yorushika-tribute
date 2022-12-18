@@ -11,17 +11,15 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: {
-    logo: {
-      type: String,
-      default: "src/assets/yorulogo.jpg",
-    },
-    message: String,
-    sub: String,
+<script setup>
+defineProps({
+  logo: {
+    type: String,
+    default: "src/assets/yorulogo.jpg"
   },
-};
+  message: String,
+  sub: String
+});
 </script>
 
 <style>

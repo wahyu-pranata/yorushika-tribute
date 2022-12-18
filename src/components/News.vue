@@ -8,20 +8,16 @@
   <p v-else class="loader">Loading news data...</p>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      news: [],
-    };
-  },
-  mounted() {
-    fetch("http://localhost:3000/news")
-      .then((res) => res.json())
-      .then((data) => (this.news = data))
-      .catch((err) => console.log(err.message));
-  },
-};
+<script setup>
+import { ref, onMounted } from "vue";
+
+let news = ref([]);
+onMounted(() => {
+  fetch("http://localhost:3000/news")
+    .then((res) => res.json())
+    .then((data) => (news.value = data))
+    .catch((err) => console.log(err.message));
+});
 </script>
 
 <style>

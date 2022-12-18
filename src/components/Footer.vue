@@ -4,12 +4,6 @@
   </footer>
 </template>
 
-<script>
-export default {
-  name: "Footer"
-}
-</script>
-
 <style scoped>
   footer {
     @apply w-full text-center py-2 mt-16 bg-yoru-200

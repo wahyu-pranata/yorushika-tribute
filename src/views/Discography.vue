@@ -5,15 +5,9 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import Banner from "../components/Banner.vue";
 import Disco from "../components/Discographies.vue";
-export default {
-  components: {
-    Banner,
-    Disco,
-  },
-};
 </script>
 
 <style scoped>

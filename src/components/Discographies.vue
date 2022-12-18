@@ -17,20 +17,17 @@
   <p v-else class="loader">Loading discography data...</p>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      discographies: [],
-    };
-  },
-  mounted() {
-    fetch("http://localhost:3000/discography")
-      .then((res) => res.json())
-      .then((data) => this.discographies = data)
-      .catch((err) => console.log(err.message));
-  },
-};
+<script setup>
+import {ref, onMounted} from "vue";
+
+let discographies = ref([]);
+
+onMounted(() => {
+  fetch("http://localhost:3000/discography")
+    .then((res) => res.json())
+    .then((data) => discographies.value = data)
+    .catch((err) => console.log(err.message));
+});
 </script>
 
 <style>

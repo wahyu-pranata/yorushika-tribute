@@ -1,36 +1,33 @@
 <template>
   <div>
     <nav class="navbar">
-      <p class="menu" @click="$emit('tog-drawer')">{{ drawerText }}</p>
+      <p class="menu" @click="$emit('toggle-drawer')">{{ drawerText }}</p>
     </nav>
-    <Drawer :class="isDrawerActive" @switch="$emit('switch')" />
-    <div v-if="drawervis">
+    <Drawer :class="isDrawerActive" @toggle-drawer="$emit('toggle-drawer')" />
+    <div v-if="drawerVisibility">
       <div
         class="fixed inset-0 z-10 ml-14 overflow-hidden bg-black/50"
-        @click.self="$emit('close')"
+        @click.self="$emit('toggle-drawer')"
       ></div>
     </div>
   </div>
 </template>
 
-<script>
+<script setup>
+import { computed } from "vue";
 import Drawer from "./Drawer.vue";
-export default {
-  components: {
-    Drawer,
-  },
-  props: {
-    drawervis: Boolean,
-  },
-  computed: {
-    isDrawerActive() {
-      return this.drawervis ? "active" : "inactive";
-    },
-    drawerText() {
-      return this.drawervis ? "CLSE" : "MENU";
-    },
-  },
-};
+
+const props = defineProps({
+  drawerVisibility: Boolean
+});
+
+const isDrawerActive = computed(() => {
+  return props.drawerVisibility ? "active" : "inactive";
+});
+
+const drawerText = computed(() => {
+  return props.drawerVisibility ? "CLSE" : "MENU";
+});
 </script>
 
 <style>

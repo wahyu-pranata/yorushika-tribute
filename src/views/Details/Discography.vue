@@ -14,24 +14,20 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import { ref, onMounted } from "vue";
 import Banner from "../../components/Banner.vue";
 import Tracklist from "../../components/Tracklist.vue";
-export default {
-  components: { Banner, Tracklist },
-  props: ["id"],
-  data() {
-    return {
-      disco: null,
-    };
-  },
-  mounted() {
-    fetch("http://localhost:3000/discography/" + this.id)
-      .then((res) => res.json())
-      .then((data) => (this.disco = data))
-      .catch((err) => console.log(err.message));
-  },
-};
+
+let disco = ref();
+const props = defineProps(["id"]);
+
+onMounted(() => {
+  fetch("http://localhost:3000/discography/" + props.id)
+    .then((res) => res.json())
+    .then((data) => (disco.value = data))
+    .catch((err) => console.log(err.message));
+});
 </script>
 
 <style>

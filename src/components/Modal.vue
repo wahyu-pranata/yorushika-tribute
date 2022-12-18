@@ -17,13 +17,10 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "Modal",
-  props: {
-    modalVideoId: String,
-  },
-};
+<script setup>
+defineProps({
+  modalVideoId: String
+})
 </script>
 
 <style>

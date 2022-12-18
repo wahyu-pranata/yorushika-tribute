@@ -43,13 +43,10 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import News from "./News.vue"
 import Content from "./Content.vue";
 import Works from "./Works.vue";
-export default {
-  components: { Content, Works, News },
-};
 </script>
 
 <style>

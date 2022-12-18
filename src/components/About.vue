@@ -24,10 +24,6 @@
   </div>
 </template>
 
-<script>
-export default {};
-</script>
-
 <style>
 .about-comp-container {
   @apply mx-auto w-4/5 space-y-4;

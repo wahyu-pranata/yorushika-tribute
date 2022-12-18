@@ -14,20 +14,17 @@
   <p v-else class="loader">Loading Biography Data...</p>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      biographies: [],
-    };
-  },
-  mounted() {
-    fetch("http://localhost:3000/biography")
-      .then((res) => res.json())
-      .then((data) => (this.biographies = data))
-      .catch((err) => console.log(err.message));
-  },
-};
+<script setup>
+import { ref, onMounted } from "vue";
+
+let biographies = ref([]);
+
+onMounted(() => {
+  fetch("http://localhost:3000/biography")
+    .then((res) => res.json())
+    .then((data) => (biographies.value = data))
+    .catch((err) => console.log(err.message));
+})
 </script>
 
 <style>

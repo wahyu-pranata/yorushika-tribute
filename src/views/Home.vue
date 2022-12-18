@@ -5,17 +5,9 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import Banner from "../components/Banner.vue";
 import Introduction from "../components/Introduction.vue";
-import News from "../components/News.vue";
-export default {
-  components: {
-    Banner,
-    Introduction,
-    News,
-  },
-};
 </script>
 
 <style scoped>

@@ -9,30 +9,26 @@
     </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      disco: [],
-    };
-  },
-  mounted() {
-    fetch("http://localhost:3000/discography")
-      .then((res) => res.json())
-      .then((data) => (this.disco = data))
-      .catch((err) => console.log(err.message));
-  },
-  computed: {
-    albums() {
-      return this.disco.filter(
-        (item) =>
-          item.type === "Album" ||
-          item.type === "EP" ||
-          item.type === "Mini Album"
-      );
-    },
-  },
-};
+<script setup>
+import { ref, onMounted, computed } from "vue";
+
+let disco = ref([]);
+
+onMounted(() => {
+  fetch("http://localhost:3000/discography")
+    .then((res) => res.json())
+    .then((data) => (disco.value = data))
+    .catch((err) => console.log(err.message));
+});
+
+const albums = computed(() => {
+  return disco.value.filter(
+    (item) =>
+      item.type === "Album" ||
+      item.type === "EP" ||
+      item.type === "Mini Album"
+  );
+});
 </script>
 
 <style>

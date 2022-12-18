@@ -13,15 +13,15 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: ["data"],
-  computed: {
-    tracklist() {
-      return this.data.tracklist;
-    },
-  },
-};
+<script setup>
+import { computed } from "vue";
+
+const props = defineProps({
+  data: Object
+});
+const tracklist = computed(() => {
+  return props.data.tracklist
+})
 </script>
 
 <style scoped>

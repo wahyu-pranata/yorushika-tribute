@@ -2,31 +2,27 @@
   <div class="drawer-container">
     <div class="drawer">
       <ul class="drawer-items">
-        <li><router-link to="/" @click="$emit('switch')">home</router-link></li>
+        <li><router-link to="/" @click="$emit('toggle-drawer')">home</router-link></li>
         <li>
-          <router-link to="/about" @click="$emit('switch')">about</router-link>
+          <router-link to="/about" @click="$emit('toggle-drawer')">about</router-link>
         </li>
         <li>
-          <router-link to="/biography" @click="$emit('switch')"
+          <router-link to="/biography" @click="$emit('toggle-drawer')"
             >biography</router-link
           >
         </li>
         <li>
-          <router-link to="/disco" @click="$emit('switch')"
+          <router-link to="/disco" @click="$emit('toggle-drawer')"
             >discography</router-link
           >
         </li>
         <li>
-          <router-link to="/movies" @click="$emit('switch')">movie</router-link>
+          <router-link to="/movies" @click="$emit('toggle-drawer')">movie</router-link>
         </li>
       </ul>
     </div>
   </div>
 </template>
-
-<script>
-export default {};
-</script>
 
 <style>
 .drawer-container {
